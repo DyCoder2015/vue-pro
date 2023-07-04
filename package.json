@@ -1,0 +1,61 @@
+{
+  "name": "mobile",
+  "version": "0.1.0",
+  "private": true,
+  "description": "个人登录界面",
+  "author": "",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "lint": "vue-cli-service lint",
+    "build:prod": "vue-cli-service build",
+    "build:stage": "vue-cli-service build --mode staging"
+  },
+  "dependencies": {
+    "@vant/area-data": "^1.2.2",
+    "axios": "^0.19.2",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "core-js": "^3.6.5",
+    "html5-qrcode": "^2.2.0",
+    "js-cookie": "^2.2.1",
+    "lib-flexible": "^0.3.2",
+    "postcss-pxtorem": "^5.1.1",
+    "qs": "^6.9.4",
+    "vant": "^2.8.7",
+    "vue": "^2.6.11",
+    "vue-dialog-simple": "^1.2.0",
+    "vue-qrcode-reader": "^3.1.0",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "weixin-jsapi": "^1.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.4.0",
+    "@vue/cli-plugin-eslint": "^4.4.0",
+    "@vue/cli-plugin-router": "^4.4.4",
+    "@vue/cli-service": "^4.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "file-saver": "^2.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
