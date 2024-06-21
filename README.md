@@ -1,4 +1,4 @@
-# vue_h5_vant 柏怡科技信息管理平台
+# vue_h5_vant
 
 ## Project setup
 - 作者 Dy
